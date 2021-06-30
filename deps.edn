@@ -1,0 +1,13 @@
+{:paths ["resources" "src"]
+ :deps {org.clojure/clojure {:mvn/version "1.10.3"}
+        com.github.seancorfield/next.jdbc {:mvn/version "1.2.674"}
+        com.stuartsierra/component {:mvn/version "1.0.0"}
+        org.xerial/sqlite-jdbc {:mvn/version "3.34.0"}
+
+        compojure/compojure {:mvn/version "1.6.2"}
+        ring/ring-core {:mvn/version "1.9.3"}
+        ring/ring-defaults {:mvn/version "0.3.3"}
+        ring/ring-jetty-adapter {:mvn/version "1.9.3"}
+        hiccup/hiccup {:mvn/version "1.0.5"}}}
+
+
